@@ -1,8 +1,14 @@
+import Header from "./_components/header";
+import Search from "./_components/search";
+
 const Home = () => {
   return (
-    <div className="bg-red-500 px-4 mx-5">
-      <h1>Hello, Tailwind</h1>
-    </div>
+    <>
+      <Header />
+      <div className="px-5 pt-6">
+        <Search />
+      </div>
+    </>
   );
 }
 

@@ -42,6 +42,18 @@ const Home = () => {
 
         <ProductList />
       </div>
+
+      <div className="px-5 pt-6">
+        <Image
+          src="/promo-banner-02.png"
+          alt="A partir de R$ 17,90 em lanches!"
+          height={0}
+          width={0}
+          className="h-auto w-full object-contain"
+          sizes="100vw"
+          quality={100}
+        />
+      </div>
     </>
   );
 }
